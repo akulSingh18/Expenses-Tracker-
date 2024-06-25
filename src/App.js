@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import StartingComponent from './components/StartingComponent';
+import Form from "./components/FormComponent/index"
+import SelfExpenses  from './components/SelfExpenses';
+import Borrowed  from './components/Borrowed';
+import Given from './components/Given/index,'
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // <div className="App">
+
+    //   <div className='heading-cont'>
+    //       Expenses Tracker
+    //   </div>
+    //   <div className='components-cont'>
+    //     <StartingComponent text="Self Expenses"/>
+    //     <StartingComponent text="Borrowed"/>
+    //     <StartingComponent text = "Given"/>
+    //   </div>
+    // </div>
+
+    <Borrowed/>
+
+     
+  )
 }
 
 export default App;

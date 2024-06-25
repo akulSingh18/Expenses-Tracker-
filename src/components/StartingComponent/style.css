@@ -1,0 +1,11 @@
+.text-cont{
+
+    font-size: 60px;
+    width: 50%;
+    color: rgb(67, 143, 31);
+    border: 5px solid rgba(154, 193, 147, 0.937);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

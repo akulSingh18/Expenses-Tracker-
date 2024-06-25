@@ -1,0 +1,31 @@
+.self-expenses-comp-cont{
+
+  display: flex;
+  flex-direction: column;
+  height:100vh;
+  
+  
+
+
+}
+.self-expenses-heading{
+
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 5%;
+    height:20%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+
+.form-cont{ 
+    height:30%;
+    
+}
+
+.self-expenses-comp-list{
+
+    height:50%;
+}
